@@ -1,0 +1,134 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(26, 26, 26);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+header {
+    color: white;
+    text-align: center;
+    position: fixed;
+    background-color: rgb(26, 26, 26);
+    width: 100%;
+    height: 60px;
+    top: 0;
+    padding-top: 10px;
+    z-index: 1;
+}
+
+main {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+div {
+    position: relative;
+    margin: 20px auto;
+    width: 90%;
+    height: 200px;
+    border-radius: 1rem;
+    background-position: center;
+    
+}
+
+main p {
+    color: white;
+    position: absolute;
+    background-color: rgb(174, 174, 174, 0.6);
+    bottom: 10px;
+    left: 10px;
+    padding: 5px;
+}
+
+main i {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 30px;
+}
+
+.div1 {
+    background-image: url(assets/student-1.jpeg);
+}
+.div2 {
+    background-image: url(assets/student-2.jpeg);
+} 
+.div3 {
+    background-image: url(assets/student-3.jpeg);
+} 
+.div4 {
+    background-image: url(assets/student-4.jpeg);
+} 
+.div5 {
+    background-image: url(assets/student-5.jpeg);
+} 
+.div6 {
+    background-image: url(assets/student-6.jpeg);
+} 
+.div7 {
+    background-image: url(assets/student-7.jpeg);
+} 
+.div8 {
+    background-image: url(assets/student-8.jpeg);
+} 
+.div9 {
+    background-image: url(assets/student-9.jpeg);
+}
+
+footer {
+    color: white;
+    width: 100%;
+    background-color: rgb(26, 26, 26);
+    height: fit-content;
+    position: fixed;
+    bottom: 0px;
+}
+
+footer i {
+    font-size: 25px;
+}
+.footer-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+   padding: 0 10px;
+}
+
+.footer-div a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: small;
+}  
+
+button {
+    margin-left: 20px;
+    background-color: red;
+    width: 80px;
+    height: 40px;
+    border-radius: 0.3rem;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    border: red;
+}
+
+@media (min-width:400px) {
+    div { 
+          display: inline-block;
+          width: 400px;
+          background-repeat: no-repeat;
+          background-size: cover;
+    }
+    main {
+        text-align: center;
+    }
+}
